@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    background-color: #555511;
+    height: 12rem;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header .titulo-container
+{
+   position: relative;
+   top: 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+header .titulo-container h1
+{
+    color:#111111;
+    margin: 0;
+
+}
+header .titulo-container h1::before
+{
+   content: "W";
+   font-size: 4.5rem;
+}
+
+header .titulo-container h1::after
+{
+    
+   content: "A";
+   font-size: 4.5rem;
+
+}
+
+header .titulo-container  strong
+{
+    color:#333333;
+    margin: 0;
+}
+
+
+header .imagen-container
+{
+    position: absolute;
+    top: 19rem;
+    width: 17rem;
+}
+
+
+header .imagen-container img
+{
+   width: 100%;
+}
+
+
+/* main........ */
+main{
+    height: 50rem;
+    background-color: #fff000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.seccion-links{
+    margin-top: 2rem;
+    background-color: aqua;
+    height: 27rem;
+    width: 50%;
+    position: relative;
+
+}
+
+.seccion__item{
+    font-size: 1.4rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 15rem;
+    text-align: center;
+}
+
+
+
+.seccion-links .a{
+    top: 1rem;
+    right: -1rem;
+}
+
+.seccion-links .b{
+    top: 3rem;
+    left: -4rem;
+}
+
+.seccion-links .c{
+    top: 5rem;
+    left: -5rem;
+} 
+
+
+.seccion-links .d{
+    top: 7rem;
+    left: -4.5rem;
+} 
+
+.seccion-links .e{
+    top: 9rem;
+    left: -1.5rem;
+} 
+
+.seccion-links .f{
+    top: -14.3rem;
+    left:20.5rem;
+}
+
+.seccion-links .g{
+    top: -12.5rem;
+    left:25rem;
+}
+
+.seccion-links .h{
+    top: -10.3rem;
+    left:27rem;
+}
+
+.seccion-links .i{
+    top: -8.7rem;
+    left:25rem;
+}
+
+.seccion-links .j{
+    top: -6.7rem;
+    left:23rem;
+}
+
+
+.seccion__item a{
+    text-decoration: none;
+}
+
+.seccion__item small{
+    font-size: 1rem;
+    color: #555;
+}
+
+
+/* seccion forumulario */
+
+.formulario{
+    margin-top: 1rem;
+    background-color: #123451;
+    height: 6rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-Container{
+    background-color: #ffaa33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-Container label{
+    display: flex;
+    background-color: white;
+    height: 3.5rem;
+    width: 30rem;
+    justify-content: center;
+    padding-left: 0.01rem;
+}
+
+.boton-select{
+    width: 4rem;
+
+}
+
+footer{
+    background-color: #000000;
+    font-size: 2rem;
+    color:white;
+}
+
+
