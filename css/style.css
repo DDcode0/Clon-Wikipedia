@@ -10,7 +10,6 @@ html{
 }
 
 header{
-    background-color: #555511;
     height: 12rem;
     padding-top: 0;
     display: flex;
@@ -71,7 +70,7 @@ header .imagen-container img
 /* main........ */
 main{
     height: 50rem;
-    background-color: #fff000;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,16 +80,14 @@ main{
 
 .seccion-links{
     margin-top: 2rem;
-    background-color: aqua;
     height: 27rem;
-    width: 50%;
-    position: relative;
-
+    width: 40rem;
+    position: absolute;
 }
 
 .seccion__item{
     font-size: 1.4rem;
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -101,54 +98,65 @@ main{
 
 
 .seccion-links .a{
-    top: 1rem;
-    right: -1rem;
+    top: 0rem;
+    left: 1.5rem;
 }
+
 
 .seccion-links .b{
-    top: 3rem;
-    left: -4rem;
+    top: 5rem;
+    left: -2rem;
 }
 
+
 .seccion-links .c{
-    top: 5rem;
-    left: -5rem;
+    top: 11rem;
+    left: -3rem;
 } 
 
 
 .seccion-links .d{
-    top: 7rem;
-    left: -4.5rem;
+    top: 17rem;
+    left: -2.5rem;
 } 
+
 
 .seccion-links .e{
-    top: 9rem;
-    left: -1.5rem;
+    top: 22rem;
+    left: 0rem;
 } 
 
+
+
 .seccion-links .f{
-    top: -14.3rem;
-    left:20.5rem;
+    top: 0rem;
+    right: 1.3rem;
 }
 
 .seccion-links .g{
-    top: -12.5rem;
-    left:25rem;
+    top: 5rem;
+    right:-1rem;
 }
+
+
 
 .seccion-links .h{
-    top: -10.3rem;
-    left:27rem;
+    top: 11rem;
+    right:-1.5rem;
 }
 
+
 .seccion-links .i{
-    top: -8.7rem;
+    top: 17rem;
     left:25rem;
 }
 
+
+
+
 .seccion-links .j{
-    top: -6.7rem;
-    left:23rem;
+    top: 22rem;
+    right: 3rem;
 }
 
 
@@ -159,23 +167,24 @@ main{
 .seccion__item small{
     font-size: 1rem;
     color: #555;
-}
-
+} 
 
 /* seccion forumulario */
 
 .formulario{
-    margin-top: 1rem;
-    background-color: #123451;
+    
+    position: absolute;
+    margin-top: 4rem;
     height: 6rem;
-    width: 50%;
+    width: 40rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 40rem;
+
 }
 
 .formulario-Container{
-    background-color: #ffaa33;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,17 +192,119 @@ main{
 
 .formulario-Container label{
     display: flex;
-    background-color: white;
     height: 3.5rem;
-    width: 30rem;
-    justify-content: center;
-    padding-left: 0.01rem;
+    width: 40rem;
+    align-items: center;
+    border: 0.1rem solid #a2a9b1;
+    cursor: pointer;
+
 }
+
+
+.formulario-Container label:hover{
+    border: 0.2rem solid #3366cc;
+    cursor:text;
+
+}
+
+.formulario-Container label .buscar{
+    width:100%;
+    margin-left: 0.5rem;
+    border: none;
+    outline:none;
+}
+
+
 
 .boton-select{
     width: 4rem;
+    border: none;
+    font-size: 1.2rem;
+    color: #a2a9b1;
+    outline:none;
 
 }
+
+.boton-select:hover{
+
+ background: rgba(230, 230, 230, 0.3)
+
+}
+
+
+
+
+
+.boton-buscar{
+
+    border: none;
+    height: 100%;
+    width: 6rem;
+    background-color: #3366cc;
+    color: white;
+    border-radius: 0.1rem;
+    border: 0.1rem solid #3366cc;
+    outline: none;
+}
+
+
+.boton-buscar:hover{
+
+   opacity: 0.8;
+}
+
+
+ .boton-buscar i:active{
+   border: 0.1rem solid white;
+}
+
+
+
+.boton-buscar i{
+    font-size: 1.7rem;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.boton--deslice{
+
+    position: absolute;
+    top:51rem;
+  
+}
+
+.boton--deslice button{
+    display: flex;
+    height: 3.5rem;
+    width: 30rem;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #3366cc;
+    background-color: #f8f9fa;
+    border: 0.1rem solid #a2a9b1;
+    outline: none;
+}
+
+
+.boton--deslice button:hover{
+    background-color: #eee;
+}
+
+.boton--deslice button:active{
+    border: 0.2rem solid #3366cc;
+}
+
+
+
+
+.boton--deslice button i{
+ font-size: 1.5rem;
+}
+
 
 footer{
     background-color: #000000;

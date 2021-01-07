@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@900&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/fd287823ba.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -163,7 +165,7 @@
         <section class="formulario">
             <form action="" class="formulario-Container">
                 <label for="buscar">
-                    <input type="text" name="buscar" class="buscar" id="buscar">   
+                    <input type="text" name="buscar" class="buscar" id="buscar" autocomplete="off">   
                     <select name="lenguajes" class="boton-select">
                         <option value="ingles">HE</option>
                         <option value="ar" lang="ar">العربية</option><!-- Al-ʿArabīyah -->
@@ -237,14 +239,18 @@
                         <option value="ko" lang="ko">한국어</option><!-- Hangugeo -->
                     </select>   
                     <button class="boton-buscar">
-                        boton
+                        <i class="fas fa-search"></i>
                     </button>              
                 </label>              
             </form>
         </section>
-        <section>
+        <section class="boton--deslice">
             <button>
-                Read Wikipedia in your lenguage
+                <i class="fas fa-language"></i>
+                <span>
+                    Read Wikipedia in your lenguage
+                </span>
+                <i class="fas fa-arrow-down"></i>
             </button>
         </section>
     </main>
