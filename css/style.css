@@ -17,6 +17,13 @@ header{
     align-items: center;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
 
 header .titulo-container
 {
@@ -69,7 +76,7 @@ header .imagen-container img
 
 /* main........ */
 main{
-    height: 50rem;
+    height: 40rem;
 
     display: flex;
     flex-direction: column;
@@ -273,6 +280,8 @@ main{
 
     position: absolute;
     top:51rem;
+    z-index: 5;
+    
   
 }
 
@@ -306,10 +315,37 @@ main{
 }
 
 
-footer{
-    background-color: #000000;
-    font-size: 2rem;
-    color:white;
+
+#remove{
+    display: none;
 }
 
 
+/* la taballala */
+.layoutTable{
+    
+    position: relative;
+    width: 80%;
+    z-index: 1;
+    height: auto;
+   margin: 0 auto;
+}
+
+.layaut-container-items{
+    display: grid;
+    margin: 0 auto;
+    transition: 2s;
+}
+
+
+footer{
+    
+    position: relative;
+    height:10rem;
+    background-color: #000000;
+    font-size: 2rem;
+    color:white;
+    width: 100%;
+    bottom: -10rem;
+
+}
